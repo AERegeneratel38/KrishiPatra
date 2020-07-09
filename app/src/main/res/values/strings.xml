@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">कृषि पत्र</string>
+    <string name="Slogan">छरी रोपी मुली फलाऔ । </string>
+    <string name="News">समाचार </string>
+    <string name="Forum">सोधपुछ </string>
+    <string name="Video">भिडियो </string>
+    <string name="Market">बजार </string>
+    <string name="Chat">नजिकी किसानहरु</string>
+    <string name="Profile">प्रोफाइल </string>
+
+
+    <string name="action_settings">सेटिङ</string>
+    <string name="empty_text">Select song from below to play</string>
+    <string name="standard">Standard</string>
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="idle">Idle</string>
+    <string name="crash_toast_text">Oops Crash Occurred</string>
+    <string name="checkout">चेकआउट</string>
+    <string name="similar_product">तपाईंले यो पनि मन परौनुहोला </string>
+
+    <string name="email_developer_">निर्माणकर्ताको ईमेल :</string>
+    <string name="personal_website_">वेबसाईट :</string>
+    <string name="site_hitesh">www.mukunda.com</string>
+    <string name="contact_number">सम्पर्क  </string>
+    <string name="lab_locations">सम्पर्क स्थान</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_home">मुख्य सूची</string>
+    <string name="nav_popular">चर्चित</string>
+    <string name="nav_categories">वर्ग</string>
+    <string name="nav_downloaded">डाउनलोडेड</string>
+    <string name="nav_setting">सेटिङ</string>
+    <string name="nav_rate">मूल्याङ्कन</string>
+    <string name="nav_share">अनुप्रयोग साझेदारी</string>
+    <string name="nav_request">भिडियो अनुरोध</string>
+
+    <string name="link" translatable="false">http://videosection.nepalilearning.com/</string>
+    <!--<string name="link" translatable="false">http://sixersquare.com/krishipatra1/</string>-->
+    <!--<string name="link" translatable="false">http://192.168.1.121/freak/video-status/</string>-->
+    <!--<string name="link" translatable="false">http://www.pollywoodsnapchat.com/punjabistatus/</string>-->
+
+
+    <string name="facebook_app_id" translatable="false">141705999996298</string>
+    <string name="txt_search">Search</string>
+    <string name="authority" translatable="false">aelcorporation.krishipatra.fileProvider</string>
+    <string name="destinationFolderName" translatable="false">/krishipatra</string>
+
+    <string name="instagram_warning">Instagram not installed in the device</string>
+    <string name="twitter_warning">Twitter not installed in the device</string>
+
+    <!--AdMob Integration-->
+
+    <string name="show_admmob_ads" translatable="false">no</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3730886167471578/6756170800</string>
+    <string name="interstial_ad_unit_id" translatable="false">ca-app-pub-3730886167471578/3746864089</string>
+
+    <!--Facebook Admob Integration-->
+    <string name="show_facebook_ads" translatable="false">yes</string>
+    <string name="facebook_interstial" translatable="false">141705999996298_194497101383854</string>
+    <string name="facebook_banner_id" translatable="false">141705999996298_194490801384484</string>
+
+
+    <string name="email" translatable="false">mukunda.adhikari@outlook.com</string>
+    <string name="txt_about_us">हाम्रो बारे</string>
+    <string name="txt_privacy_policy">निजी नीति</string>
+    <string name="txt_setting">सेटिङ</string>
+    <string name="aboutUs_filename" translatable="false">aboutus.html</string>
+    <string name="txt_categories">वर्ग</string>
+    <string name="txt_views">हेरिएको</string>
+    <string name="txt_downloads">डाउनलोड</string>
+    <string name="txt_downloaded">डाउनलोडेड</string>
+    <string name="delete_vide_warning">Deleting the video would delete permanently from storage also!</string>
+    <string name="txt_delete">मेटाउन</string>
+    <string name="txt_ok">ठिक </string>
+    <string name="txt_cancel">रद्द</string>
+    <string name="error_file_extst">File doesn\'t exists!</string>
+    <string name="error_no_file">File didn\'t existed in storage!</string>
+    <string name="txt_popular">चर्चित</string>
+    <string name="playStore_address" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <string name="delete_all">Delete all videos permanently from storage?</string>
+    <string name="txt_no_email_client">There is no email client exists</string>
+    <string name="request_rateus">मूल्याङ्कन</string>
+    <string name="txt_request_video">भिडियो अनुरोध </string>
+    <string name="txt_rate_it">मूल्याङ्कन</string>
+    <string name="txt_rate_part1">Thanks for using the application. If you like</string>
+    <string name="txt_rate_part2">please rate us! Your feedback is important for us!</string>
+    <string name="txt_not_now">Not now</string>
+    <string name="txt_home">मुख्य सूची</string>
+    <string name="txt_sort_by_old_to_new">Sort by old to new</string>
+    <string name="txt_clear_download">डाउनलोडेड मेटाउन</string>
+    <string name="txt_more_apps">More Apps</string>
+    <string name="txt_sort_by_new_to_old">Sort by new to old</string>
+    <string name="txt_no_data_avail">No Data Available!</string>
+
+    <!-- CELL BOTTOM -->
+
+    <string name="views">हेरिएको </string>
+    <string name="app_description">New Videos</string>
+    <string name="error">No more record found!</string>
+    <string name="installfb">Install Facebook App To Share!</string>
+    <string name="try_later">Try Later!</string>
+    <string name="install_insta">Would you like to install Instagram?</string>
+    <string name="install_twitter">Would you like to install Twitter?</string>
+    <string name="install_messenger">Would you like to install Messenger?</string>
+    <string name="install_facebook">Would you like to install Facebook?</string>
+    <string name="install_whatsapp">Would you like to install Whatsapp?</string>
+    <string name="app_not_found">App Not Found</string>
+    <string name="noInternet" translatable="false">Please Check Your Internet Connection!</string>
+    <string name="info" translatable="false">Info</string>
+
+    <string name="action_sign_in_short">दर्ता गर्नुहोस्</string>
+
+    <string name="minimum_password">पासवर्ड धेरै छोटो छ</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email"> ईमेल फेर्नु </string>
+    <string name="change_password">पासवर्ड फेर्नु</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New पासवर्ड</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">ईमेल</string>
+    <string name="hint_password">पासवर्ड</string>
+    <string name="hint_name">पुरा नाम</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">पहिले नै दर्ता गरिएको छ। मलाई लगइन गर्नुहोस्!</string>
+    <string name="title_activity_reset_password">िसेट पासवर्डशब्दता</string>
+    <string name="btn_forgot_password">पासवर्ड बिर्सिएमा?</string>
+    <string name="btn_reset_password">पासवर्ड रिसेट</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">साइन आउट</string>
+    <string name="lbl_forgot_password"> पासवर्ड बिर्सिएमा</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_newsdetail">newsdetail</string>
+    <string name="title_activity_baal">baal</string>
+
+
+    <string-array name="selectDistrict">
+        <item>Kathmandu</item>
+        <item>Lalitpur</item>
+        <item>Bhaktapur</item>
+        <item>Kavre</item>
+        <item>Nepalgunj</item>
+        <item>Pyuthan</item>
+        <item>Dang</item>
+        <item>Gulmi</item>
+        <item>Rukum</item>
+        <item>Rolpa</item>
+        <item>Bara</item>
+        <item>Parsa</item>
+        <item>Morang</item>
+        <item>Dhanusha</item>
+        <item>Sunsari</item>
+        <item>Itahari</item>
+        <item>Taplegunj</item>
+        <item>Sindhupalchowk</item>
+        <item>Palpa</item>
+        <item>Kaski</item>
+        <item>Baglung</item>
+        <item>Gorkha</item>
+        <item>Chitwan</item>
+        <item>Lamjung</item>
+        <item>Nawalparasi</item>
+        <item>Mugu</item>
+        <item>Humla</item>
+        <item>Jumla</item>
+        <item>Dolpa</item>
+        <item>Kalikot</item>
+
+
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius = "3dp"
+    app:cardElevation = "3dp"
+    app:contentPadding = "5dp"
+    app:cardUseCompatPadding = "true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".krishisamachar.newsdetail"
+
+    >
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="Title"
+            android:id="@+id/titleTv"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTv"
+            android:text="This is the description."
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+
+
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailnewsTv"
+            android:text="This is the detail of the fucking News."
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

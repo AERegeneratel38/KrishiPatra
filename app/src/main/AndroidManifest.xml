@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aelcorporation.krishipatra">
+
+    <uses-sdk tools:overrideLibrary="cn.jzvd" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/logokkpp1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/newicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/OKAppTheme">
+        <activity
+            android:name=".view.activities.ECartHomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MarketTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@string/authority"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NormalTheme" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ForgetPassword" />
+        <activity
+            android:name=".krishisamachar.newshome"
+            android:label="newshome"
+            android:theme="@style/NewsTheme" />
+        <activity
+            android:name=".krishisamachar.newsdetail"
+            android:label="newsdetail"
+            android:theme="@style/NewsTheme" />
+        <activity android:name=".ProfileSection" />
+        <activity
+            android:name=".FarmersNearby"
+            android:label="Farmers Nearby"
+            android:theme="@style/FarmersNearbyTheme" />
+        <activity
+            android:name=".forumsection.ForumActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ForumTheme" />
+        <activity
+            android:name=".forumsection.ForumDetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ForumTheme" />
+        <activity
+            android:name=".forumsection.ForumPostActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ForumTheme" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoPlayerTheme" />
+        <activity
+            android:name=".activity.DetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:theme="@style/VideoPlayerTheme" />
+        <activity
+            android:name=".activity.PopularActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoPlayerTheme" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoPlayerTheme" />
+        <activity
+            android:name=".activity.CategoriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoPlayerTheme" />
+        <activity
+            android:name=".activity.DownloadsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoPlayerTheme" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider141705999996298"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- setting of firebase -->
+
+        <service android:name=".utilities.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".utilities.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".KalimatiPrice"></activity>
+    </application>
+
+</manifest>

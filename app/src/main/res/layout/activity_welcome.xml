@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/fruit">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+
+        <ImageView
+            android:id="@+id/logoimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/logokp1" />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/Slogan"
+            android:textColor="@android:color/white"
+            android:textSize="10pt"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2"
+
+
+        >
+
+        <Button
+            android:id = "@+id/btnSignUp"
+            android:text="साइन अप"
+            android:textColor="@android:color/white"
+            android:textSize="10pt"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:background="@color/colorSignUp"
+
+
+            />
+
+        <Button
+            android:id = "@+id/btnSignIn"
+            android:text="साइन इन "
+            android:textColor="@android:color/white"
+            android:textSize="10pt"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:background="@color/colorSignIn"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/logo1img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/logokp1" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

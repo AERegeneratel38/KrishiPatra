@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1021201913715",
+    "firebase_url": "https://krishisamachar-3883e.firebaseio.com",
+    "project_id": "krishisamachar-3883e",
+    "storage_bucket": "krishisamachar-3883e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021201913715:android:da14f29978053963",
+        "android_client_info": {
+          "package_name": "com.aelcorporation.krishipatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021201913715-691kjm1242a5c6ag4f68ggr0lskkd1dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aelcorporation.krishipatra",
+            "certificate_hash": "0bf19aebb86911390e460bbd952e9562c3e59e07"
+          }
+        },
+        {
+          "client_id": "1021201913715-vkok8kvmoirlghn96j42e2deob65l5na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsGbSxYFQZtCmwsbobAvkHJtY9wuldzIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021201913715-vkok8kvmoirlghn96j42e2deob65l5na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021201913715:android:9bb96490fd5e8e1f",
+        "android_client_info": {
+          "package_name": "com.aelcorporation.krishipatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021201913715-tc1u2ie3o3h3pm93cevamb9hq6l66adp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aelcorporation.krishipatra",
+            "certificate_hash": "0bf19aebb86911390e460bbd952e9562c3e59e07"
+          }
+        },
+        {
+          "client_id": "1021201913715-vkok8kvmoirlghn96j42e2deob65l5na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsGbSxYFQZtCmwsbobAvkHJtY9wuldzIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021201913715-vkok8kvmoirlghn96j42e2deob65l5na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

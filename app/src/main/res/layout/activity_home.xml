@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    style="@style/NormalTheme"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity = "center"
+        android:clipToPadding="false"
+        android:orientation = "horizontal"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id = "@+id/samachar"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorGrapeFruit"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_news"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorGrapeFruitDark"
+                android:text="@string/News"
+                android:textSize="13dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/sodhpuch"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorBitterSweet">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forum"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorBitterSweetDark"
+                android:text = "@string/Forum"
+
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/video"
+        android:layout_width="match_parent"
+        android:gravity = "center"
+        android:clipToPadding="false"
+        android:orientation = "horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorPinkRose">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_video"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorPinkRoseDark"
+                android:text = "@string/Video"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/market"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorLavander"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/marketicon"
+                android:tint="@color/white"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/colorLavanderDark"
+                android:text = "@string/Market"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id = "@+id/chat"
+        android:layout_width="match_parent"
+        android:gravity = "center"
+        android:clipToPadding="false"
+        android:orientation = "horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorFlower">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_news"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+
+                android:text = "@string/Chat"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/profile"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorAqua"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/profileicon"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorAquaDark"
+                android:text = "@string/Profile"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
